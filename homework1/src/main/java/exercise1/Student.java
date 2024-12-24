@@ -9,14 +9,14 @@ package exercise1;
 public class Student {
     private String name;
     private int age;
-    private double avgAge;
+    private double avgPoint;
 
     public Student() { }
 
-    public Student(String name, int age, double avgAge) {
+    public Student(String name, int age, double avgPoint) {
         this.name = name;
         this.age = age;
-        this.avgAge = avgAge;
+        this.avgPoint = avgPoint;
     }
 
     public String getName() {
@@ -28,7 +28,7 @@ public class Student {
     }
 
     public double getAvgAge() {
-        return avgAge;
+        return avgPoint;
     }
 
     public void setName(String name) {
@@ -40,7 +40,7 @@ public class Student {
     }
 
     public void setAvgAge(double avgAge) {
-        this.avgAge = avgAge;
+        this.avgPoint = avgAge;
     }
 
     @Override
@@ -48,7 +48,7 @@ public class Student {
         return "Student{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
-                ", avgAge=" + avgAge +
+                ", avgAge=" + avgPoint +
                 '}';
     }
 
@@ -56,7 +56,7 @@ public class Student {
         System.out.println(this);
     }
 
-    //    public static void main(String[] args) {
+//        public static void main(String[] args) {
 //        Student st = new Student("sdsc", 5, 10);
 //        st.printStudent();
 //    }
