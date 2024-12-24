@@ -48,7 +48,7 @@ public class Student {
         return "Student{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
-                ", avgAge=" + avgPoint +
+                ", avgPoint=" + avgPoint +
                 '}';
     }
 
