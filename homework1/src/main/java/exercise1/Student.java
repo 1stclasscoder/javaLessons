@@ -27,7 +27,7 @@ public class Student {
         return age;
     }
 
-    public double getAvgAge() {
+    public double getAvgPoint() {
         return avgPoint;
     }
 
@@ -39,8 +39,8 @@ public class Student {
        this.age = age;
     }
 
-    public void setAvgAge(double avgAge) {
-        this.avgPoint = avgAge;
+    public void setAvgPoint(double avgPoint) {
+        this.avgPoint = avgPoint;
     }
 
     @Override
